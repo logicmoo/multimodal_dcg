@@ -5,5 +5,5 @@ keywords([dcg,parsing,optimization]).
 author( 'Douglas Miles', 'http://www.linkedin.com/in/logicmoo' ).
 packager( 'Douglas Miles', 'http://www.linkedin.com/in/logicmoo' ).
 maintainer( 'Douglas Miles', 'http://www.linkedin.com/in/logicmoo' ).
-home( 'https://github.com/TeamSPoon/multimodal_dcg' ).
-download( 'https://github.com/TeamSPoon/multimodal_dcg/release/*.zip' ). 
+home( 'https://github.com/TeamSPoon/pack_multimodal_dcg' ).
+download( 'https://github.com/TeamSPoon/pack_multimodal_dcg/release/*.zip' ). 

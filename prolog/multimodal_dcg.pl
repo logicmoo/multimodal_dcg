@@ -44,6 +44,7 @@
          dcgReorder/4
 	 ]).
 
+:- set_module(class(library)).
 :- include('logicmoo_util_header.pi').
 % :- ensure_loaded(logicmoo(logicmoo_utils)).
 % :- ensure_loaded(logicmoo_util_strings).
@@ -382,6 +383,7 @@ dumpList(_,[]):-!.
 :- if(current_prolog_flag(dialect,swi)).
 :- retract(double_quotes_was_in_dcg(WAS)),set_prolog_flag(double_quotes,WAS).
 :- endif.
+
 
 :- all_source_file_predicates_are_transparent.
 
