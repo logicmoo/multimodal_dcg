@@ -3,7 +3,7 @@ Reduce floundering of DCGs by constraining and narrowing search
 
 ```prolog
 
- :- pack_install('https://github.com/TeamSPoon/pack_multimodal_dcg.git').
+ :- pack_install('https://github.com/TeamSPoon/multimodal_dcg.git').
 
 ```
 
