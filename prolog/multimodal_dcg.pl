@@ -45,7 +45,7 @@
 	 ]).
 
 :- set_module(class(library)).
-:- include('logicmoo_util_header.pi').
+
 % :- ensure_loaded(logicmoo(logicmoo_utils)).
 % :- ensure_loaded(logicmoo_util_strings).
 

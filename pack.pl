@@ -1,5 +1,5 @@
 name(multimodal_dcg).
-version('0.0.7').
+version('0.0.8').
 title('Reduce floundering of DCGs by constraining and narrowing search').
 keywords([dcg,parsing,optimization]).
 author( 'Douglas Miles', 'http://www.linkedin.com/in/logicmoo' ).
