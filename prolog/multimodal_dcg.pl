@@ -46,8 +46,8 @@
 
 :- set_module(class(library)).
 
-% :- ensure_loaded(logicmoo(logicmoo_utils)).
-% :- ensure_loaded(logicmoo_util_strings).
+% :- ensure_loaded(library(logicmoo_utils)).
+% :- ensure_loaded(library(logicmoo_util_strings)).
 
  
 :- meta_predicate dcgLeftOfMid(?,//,?,?).
