@@ -210,7 +210,7 @@ theName(Var,S,_) :-getText(S,Text),suggestVar(=,Text,Var),!.
 suggestVar(_Gensym,Subj,Subj):-var(Subj),!.%,true,!.
 suggestVar(_Gensym,Subj,_Subj2):-var(Subj),!.%,true,!.
 suggestVar(Gensym,[W|ORDS],Subj):-!,ignore((once((nonvar(ORDS),toPropercase([W|ORDS],Proper),concat_atom(['Hypothetic'|Proper],'-',Suj),call(Gensym,Suj,SubjSl),ignore(SubjSl=Subj))))),!.
-%suggestVar(Gensym,[W|ORDS],Subj):-!,ignore(notrace(once((nonvar(ORDS),concat_atom(['?'|[W|ORDS]],'',Suj),call(Gensym,Suj,SubjSl),toUppercase(SubjSl,SubjS),ignore(SubjS=Subj))))),!.
+%suggestVar(Gensym,[W|ORDS],Subj):-!,ignore(zotrace(once((nonvar(ORDS),concat_atom(['?'|[W|ORDS]],'',Suj),call(Gensym,Suj,SubjSl),toUppercase(SubjSl,SubjS),ignore(SubjS=Subj))))),!.
 suggestVar(_Gensym,[],_):-!.%suggestVar(gensym,[A],Subj),!.
 suggestVar(Gensym,A,Subj):-suggestVar(Gensym,[A],Subj),!.
 
