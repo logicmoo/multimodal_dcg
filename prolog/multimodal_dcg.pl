@@ -24,7 +24,7 @@
          dcgAnd//3,
          dcgAnd//4,
          dcgMust//1,
-         dumpList/1,
+         % dumpList/1,
          dcgSeqLen//1,
          dcgOr//2,
          dcgNot//1,
@@ -45,6 +45,12 @@
 	 ]).
 
 :- set_module(class(library)).
+
+:- use_module(library(logicmoo_common)).
+:- reexport(library(logicmoo/dcg_meta)).
+
+end_of_file.
+
 
 % :- ensure_loaded(library(logicmoo_utils)).
 % :- ensure_loaded(library(logicmoo_util_strings)).
